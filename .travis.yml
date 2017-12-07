@@ -11,7 +11,6 @@ install:
 script:
   - coverage run tests.py
   - coverage run test2.py
-  - coverage run Test3.py
 
 after_success:
   - codecov
